@@ -112,6 +112,7 @@ export const updateBook = async (
     }
 
     book.updateAvailability();
+    await book.save();
 
     res.status(200).json({
       success: true,
