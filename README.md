@@ -36,7 +36,7 @@ src/
 ```bash
 gh repo clone asmaulhossain45/B5-Assignment-3
 cd B5-Assignment-3
-npm install
+yarn install
 ```
 
 ## ⚙️ Environment Variables
@@ -48,9 +48,9 @@ MONGO_URI=mongodb://localhost:27017/library
 
 ## 🛠️ Scripts
 ```bash
-npm run dev      # Run in dev mode using ts-node-dev
-npm run build    # Compile TypeScript to JavaScript
-npm start        # Run compiled app from dist/
+yarn run dev      # Run in dev mode using ts-node-dev
+yarn run build    # Compile TypeScript to JavaScript
+yarn start        # Run compiled app from dist/
 ```
 
 ## 📚 API Endpoints
